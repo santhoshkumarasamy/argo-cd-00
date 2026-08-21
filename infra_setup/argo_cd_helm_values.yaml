@@ -4,6 +4,8 @@ global:
 configs:
   params:
     server.insecure: true
+    server.basehref: "/argocd"
+    server.rootpath: "/argocd"
 
 server:
   ingress:
